@@ -52,9 +52,7 @@
     function clickable() {
         var imgs = document.getElementsByTagName("img");
         for (var i = 0; i < imgs.length; i++) {
-            console.log(i);
-            var src = imgs[i].src
-            imgs[i].onclick = () => window.open(src)
+            imgs[i].onclick = (e) => window.open(e.target.src)
         }
     }
     
