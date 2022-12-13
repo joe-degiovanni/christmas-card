@@ -2,9 +2,9 @@ body {
     background: repeating-linear-gradient(
             45deg,
             darkred,
-            darkred 10px,
-            red 10px,
-            red 20px
+            darkred 50px,
+            red 50px,
+            red 100px
     );
     color: snow;
     font-family: cursive;
@@ -54,7 +54,7 @@ header {
 main, header, footer {
     margin: auto;
     padding: 10px;
-    background-color: #004400;
+    background: linear-gradient(to right, #111, #222);
 }
 
 .gallery {
