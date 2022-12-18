@@ -113,3 +113,7 @@ main, header, footer {
     clear: both;
     margin-top: 10px;
 }
+
+address {
+    margin-left: 30px;
+}
