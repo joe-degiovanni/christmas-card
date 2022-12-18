@@ -22,6 +22,15 @@ body {
         -moz-column-count:5;
         column-count:5;
     }
+
+    .gallery img:hover {
+        cursor: pointer;
+        filter: none !important;
+    }
+
+    .gallery:hover img{
+        filter: grayscale(100%);
+    }
 }
 
 @media (max-width: 1000px) {
@@ -71,15 +80,6 @@ main, header, footer {
     -moz-box-shadow: 0 0 5px #888;
     -webkit-box-shadow: 0 0 5px #888;
     box-shadow: 0 0 5px #888;
-}
-
-.gallery img:hover {
-    cursor: pointer;
-    filter: none !important;
-}
-
-.gallery:hover img{
-    filter: grayscale(100%);
 }
 
 #xmas-count-down {
