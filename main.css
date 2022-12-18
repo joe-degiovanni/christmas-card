@@ -88,9 +88,9 @@ main, header, footer {
     font-family: sans-serif;
     font-weight: bold;
     font-size: 1.5em;
-    border: 1px solid black;
     width: 300px;
     margin: auto;
+    border: 5px ridge red;
 
     background: repeating-linear-gradient(
             135deg,
